@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v1.2.0 (2026-07-05)
+- writing-great-skills 审查后重构
+- 删除 no-op 内容（快速开始段、"必须遵守"、隐私提醒）
+- 描述瘦身：触发词压缩、添加 reach clause（clippings-digest 可通过 ingest 工作流）
+- 合并"触发条件"到"工作流总览"表，保留"不触发"排除规则
+- init 前置检查引用通用前置检查，消除 CWD 检测重复
+- 版本号重设为 1.x 系列（独立维护线）
+
 ## 3.7.0-wb1 (2026-05-19)
 - 仓库: https://github.com/sdyckjq-lab/llm-wiki-skill
 - 许可证: GPL-3.0
